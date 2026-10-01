@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparrow-case-study-generator"
+version = "0.1.0"
+description = "Deterministic, provenance-aware evidence from completed work"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+scsg = "sparrow_case_study_generator.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

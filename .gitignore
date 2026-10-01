@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.scsg/
+demo/
+.venv/
+sparrow-case-study-generator-codex.log
+sparrow-case-study-generator-launch.py
+sparrow-case-study-generator-prompt.txt

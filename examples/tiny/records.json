@@ -1,0 +1,91 @@
+{
+  "_comment": "SYNTHETIC FIXTURE: illustrative, not real customer evidence",
+  "as_of": "2026-09-30",
+  "records": [
+    {
+      "completed_on": "2026-09-29",
+      "evidence": [
+        "synthetic sign-off"
+      ],
+      "id": "000-A",
+      "measurements": {
+        "gbp": {
+          "baseline": "100",
+          "outcome": "75",
+          "source": "synthetic ledger"
+        },
+        "minutes": {
+          "baseline": "60",
+          "outcome": "20",
+          "source": "synthetic stopwatch"
+        }
+      },
+      "permission": true,
+      "source": "synthetic work log",
+      "status": "completed",
+      "synthetic": true,
+      "title": "Invoice reconciliation"
+    },
+    {
+      "completed_on": "2026-09-29",
+      "evidence": [
+        "synthetic sign-off"
+      ],
+      "id": "000-B",
+      "measurements": {
+        "minutes": {
+          "baseline": "30",
+          "outcome": "35",
+          "source": "synthetic stopwatch"
+        }
+      },
+      "permission": true,
+      "source": "synthetic work log",
+      "status": "completed",
+      "synthetic": true,
+      "title": "Order handover"
+    },
+    {
+      "completed_on": "2026-09-29",
+      "evidence": [
+        "synthetic sign-off"
+      ],
+      "id": "000-C",
+      "permission": true,
+      "source": "synthetic work log",
+      "status": "draft",
+      "synthetic": true,
+      "title": "Unfinished work"
+    },
+    {
+      "completed_on": "2026-09-29",
+      "evidence": [
+        "synthetic sign-off"
+      ],
+      "id": "000-D",
+      "permission": false,
+      "source": "synthetic work log",
+      "status": "completed",
+      "synthetic": true,
+      "title": "Private client work"
+    },
+    {
+      "completed_on": "2026-09-29",
+      "evidence": [
+        "synthetic sign-off"
+      ],
+      "hypothetical": {
+        "gbp": "50",
+        "minutes": "90"
+      },
+      "id": "000-E",
+      "permission": true,
+      "source": "synthetic work log",
+      "status": "completed",
+      "synthetic": true,
+      "title": "Completed checklist"
+    }
+  ],
+  "schema_version": 1,
+  "synthetic": true
+}
