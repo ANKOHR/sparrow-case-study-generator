@@ -1,0 +1,14 @@
+Sparrow Case Study Generator: local build complete
+Date: 2026-10-01
+Tests: 43 passed (pytest, 0.90 seconds)
+Verified local implementation commit: d1085611f3ea037c2a125827c5d3949eee339230
+Branch: main
+Installed scsg end-to-end fixture demo: 0.709874 seconds, 200 synthetic records
+Ground truth: 120 publishable, 80 excluded, zero false positives, zero missed cases
+Exact synthetic totals: 1400.00 illustrative minutes, 1000.00 illustrative GBP
+
+Built a dependency-free Python CLI with fixtures, run, report, audit, and case commands; pure schema validation and eligibility logic; exact decimal baseline/outcome calculations including regressions; explicit hypothetical labels; per-record source references and provenance banners; atomic local writes and named input errors. Included a hand-written five-record example, deterministic 200-record synthetic fixtures with independent hand arithmetic expectations, 43 passing acceptance/adversarial tests, a timed installed-entrypoint demo verifier, complete README, evidence, lessons, and a two-week review template. Synthetic acceptance criteria are met; real accuracy, usage, buyer demand, and the final verdict remain pending the authorised real-use evidence window. No publishing was performed.
+
+The hash above identifies the verified implementation and documentation commit.
+This build receipt is added in a subsequent documentation-only commit because a
+commit cannot contain its own hash. See git log -1 for the receipt commit.
